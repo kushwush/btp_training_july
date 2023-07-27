@@ -1,0 +1,4 @@
+locale,code,name,descr
+EN,DRF,Draft,Escalation not yet sent to the vendor
+EN,INP,In Progress,Escalation sent to vendor
+EN,CMP,Resolved,Escalation is closed
