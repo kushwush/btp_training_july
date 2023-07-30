@@ -7,7 +7,7 @@ using {
 namespace my.dataModel;
 
 entity Statuses : CodeList {
-    key code : String(2)
+    key code : String(3)
 }
 
 type Status : Association to Statuses;
