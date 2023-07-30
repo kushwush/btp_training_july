@@ -1,4 +1,4 @@
 code,name,descr
-DR,Draft,Escalation not yet sent to the vendor
-IP,In Progress,Escalation sent to vendor
-CP,Resolved,Escalation is closed
+DRF,Draft,Escalation not yet sent to the vendor
+INP,In Progress,Escalation sent to vendor
+CMP,Resolved,Escalation is closed
