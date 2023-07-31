@@ -7,4 +7,10 @@ service EscalationManagementService @(path: 'ems') {
 
     entity Statuses    as projection on my.Statuses;
     entity Comments    as projection on my.Comments;
+
+    event escalationCreated : {
+        escalationID : type of Escalations : ID;
+        createdBy    : String;
+        title        : String;
+    }
 }
